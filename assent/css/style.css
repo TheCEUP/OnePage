@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+   }
+
+.html{
+    background-color: rgba(9, 10, 71, 0.863);
+    color: rgba(22, 30, 73);
+    font-size: 12pt;
+    scroll-behavior: smooth;
+}
+
+.header{
+    display: table;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(8, 11, 168, 0.61);
+    background-image: url(../img/Banner.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.header h1{
+    color:rgb( 255, 255, 255);
+    text-align: right;
+    line-height: 300%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: px;
+}
+
+
+.nav{
+    display: table;
+    width: 100%;
+    background-color: rgb(51, 64, 138);
+
+    text-decoration: dashed;
+}
+
+.nav ol{
+    list-style-type: none;
+
+   
+}
+
+.nav ol li{
+    display: inline-flex;
+    border-right: 1px rgb(20, 40, 155);
+
+}
+
+.nav ol li a{
+    color: aliceblue;
+    padding: 15px;
+    
+}
+
+.nav ol li a:hover{
+    color:white;
+  background-color: rgb(135, 143, 223);
+}
+
+.steam{
+    background-color:rgb(22, 30, 73);
+    color:white;
+    text-align: justify;
+}
+
+.steam h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+.steamdeck{
+    background-color:rgb(22, 30, 73);
+    color:white;
+    text-align: center;
+}
+
+.steamdeck h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+.steamdeck h3{
+    font-size: 40px;
+}
+
+.caracteristicas{
+    background-color:rgb(22, 30, 73);
+    color:white;
+    text-align: center;
+}
+
+.caracteristicas h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.compatibilidad{
+    background-color:rgb(22, 30, 73);
+    color:white;
+    text-align: justify;
+}
+
+.compatibilidad h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+.sd{
+    width: 310px;
+    height: 163px;
+    margin: auto;
+    display: table;
+}
+
+.sd:hover{
+  border-radius: 15px;
+  border:1px solid black;
+}
+
+.juegos{
+    width: 350px;
+    height: 285px;
+    margin: auto;
+    display: table;
+}
+
+
+.juegos:hover{
+  border-radius: 15px;
+  border:1px solid black;
+}
+
+.footer{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(25, 25, 63);
+    color: rgb(166, 166, 194);
+    text-align: center;
+}
+
+.flecha{
+    color:white;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(11, 17, 112);
+    text-align: center;
+    line-height: 60px;
+    border-radius: 100%;
+    z-index: 10;
+    position: fixed;
+    right: 10px;
+    bottom: 60px;
+    text-decoration: solid;
+
+}
