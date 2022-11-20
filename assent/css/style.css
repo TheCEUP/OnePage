@@ -1,3 +1,7 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
 *{
     margin: 0px;
     padding: 0px; 
@@ -8,6 +12,7 @@
     color: rgba(22, 30, 73);
     font-size: 12pt;
     scroll-behavior: smooth;
+    
 }
 
 .header{
@@ -16,7 +21,7 @@
     height: 200px;
     background-color: rgba(8, 11, 168, 0.61);
     background-image: url(../img/Banner.png);
-    background-size: 100% 100%;
+    background-size: 100% 110%;
     background-repeat: no-repeat;
 }
 
@@ -33,7 +38,6 @@
     display: table;
     width: 100%;
     background-color: rgb(51, 64, 138);
-
     text-decoration: dashed;
 }
 
@@ -50,8 +54,9 @@
 }
 
 .nav ol li a{
-    color: aliceblue;
+
     padding: 15px;
+    color: aliceblue;
     
 }
 
@@ -64,6 +69,7 @@
     background-color:rgb(22, 30, 73);
     color:white;
     text-align: justify;
+    padding: 2%;
 }
 
 .steam h2{
@@ -75,6 +81,7 @@
     background-color:rgb(22, 30, 73);
     color:white;
     text-align: center;
+    padding: 2%;
 }
 
 .steamdeck h2{
@@ -95,6 +102,7 @@
 .caracteristicas h2{
     text-align: center;
     font-size: 50px;
+    padding: 2%;
 }
 
 
@@ -102,6 +110,7 @@
     background-color:rgb(22, 30, 73);
     color:white;
     text-align: justify;
+    padding: 2%;
 }
 
 .compatibilidad h2{
